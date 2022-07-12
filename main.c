@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Opening file
-    FILE *file = fopen(argv[1], "r");
+    FILE *file = fopen(argv[1], "rb");
 
     // Checking is file could be opened
     if (file == NULL) {
