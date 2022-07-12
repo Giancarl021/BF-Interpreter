@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
     // Checking arguments
     if (argc != 2) {
-        fprintf(stderr, "Error: Usage: ./interpreter <path/to/file>\n");
+        fprintf(stderr, "Error: Usage: ./bfi <path/to/file>\n");
         exit(EXIT_FAILURE);
     }
 
