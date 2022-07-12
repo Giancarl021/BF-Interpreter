@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Werror -std=gnu99 -fsanitize=address -g
+CFLAGS=-Wall -Wextra -Werror -std=gnu99 -O3
 CLIBS=
 SRC=src/interpreter
 BUILD_DIR=build
